@@ -1,0 +1,163 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!--No Action Bar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#333333</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="styleFloatingLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="styleTextMenuDrawer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">25dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="styleFormField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">25dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">25dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--<style name="styleBtnChooser" parent="styleFormField">-->
+    <!--<item name="android:background">@drawable/color_button_chooser</item>-->
+    <!--<item name="android:drawableLeft">@mipmap/ic_amount</item>-->
+    <!--<item name="android:ellipsize">end</item>-->
+    <!--<item name="android:hint">@string/nominal</item>-->
+    <!--<item name="android:inputType">none</item>-->
+    <!--<item name="android:editable">false</item>-->
+    <!--<item name="android:focusableInTouchMode">false</item>-->
+    <!--<item name="android:cursorVisible">false</item>-->
+    <!--<item name="android:longClickable">false</item>-->
+    <!--</style>-->
+
+    <style name="styleFormInputText" parent="styleFormField">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="styleFormNumberInputText" parent="styleFormInputText">
+        <item name="android:inputType">number</item>
+    </style>
+
+    <!--<style name="styleFormInputPasscode" parent="styleFormInputText">-->
+    <!--<item name="android:inputType">numberPassword</item>-->
+    <!--<item name="android:maxLength">@integer/passcode_maxlength</item>-->
+    <!--</style>-->
+
+    <style name="styleConfirmationText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="styleValueConfirmationText" parent="styleConfirmationText">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--<style name="styleBtnForm">-->
+    <!--<item name="android:layout_width">200dp</item>-->
+    <!--<item name="android:layout_height">wrap_content</item>-->
+    <!--<item name="android:layout_marginTop">50dp</item>-->
+    <!--<item name="android:textColor">@android:color/white</item>-->
+    <!--<item name="android:background">@drawable/shape_form_button</item>-->
+    <!--</style>-->
+
+    <style name="styleMenuButton">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">-2dp</item>
+    </style>
+
+    <style name="styleInboxButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="styleManageAccountButton">
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="styleDivider">
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="styleMenuDrawerDivider" parent="styleDivider">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="styleFormDefault">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="styleLabelReceipt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="styleValueReceipt" parent="styleLabelReceipt">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+</resources>

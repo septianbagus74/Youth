@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Youth</string>
+    <string name="company_name">Cleverness Production</string>
+    <string name="start_up">Perusahaan Software</string>
+    <string name="about_us_desc">10k orang menyukai ini \n4.5 of 5 Bintang. 500 ulasan \nBuka 08.30AM - 06.00PM</string>
+    <string name="about">MENUJU PROFILE - TENTANG INI</string>
+    <string name="call">Hubungi Kami</string>
+    <string name="see">Lihat Kami</string>
+    <string name="location">Kunjungi Kami</string>
+    <string name="location_desc">291 30th St. \nSan Fransisco, Cisauk 15811 \nIndonesia</string>
+    <string name="call_number">(+62) 89654530259</string>
+    <string name="insta_id">"@clevernessproduction00</string>
+
+    <string name="warning">Peringatan</string>
+    <string name="ok">Oke</string>
+    <string name="cancel">Batal</string>
+    <string name="confirmation">Konfirmasi</string>
+    <string name="next">Lanjut</string>
+    <string name="done">Selesai</string>
+    <string name="register">Registrasi</string>
+    <string name="login">Login</string>
+
+    <!--Quis-->
+    <string name="level1">Level 1</string>
+    <string name="level1_desc">Latihan untuk pemula</string>
+    <string name="level2">Level 2</string>
+    <string name="level2_desc">Masih latihan tetapi mengasah kemampuanmu</string>
+    <string name="level3">Level3</string>
+    <string name="level3_desc">Inilah saatnya masuk ke tahap menengah!</string>
+    <string name="level4">Level 4</string>
+    <string name="level4_desc">Mulai tahap menengah, soalnya akan lebih sulit lho.</string>
+    <string name="level5">Level 5</string>
+    <string name="level5_desc">Tahap ini akan lebih sulit dari sebelumnya.</string>
+    <string name="level6">Level 6</string>
+    <string name="level6_desc">Bersiaplah untuk kesulitan yang tiada batas!</string>
+    <string name="level7">Level 7</string>
+    <string name="level7_desc">Saya pikir Anda sudah mulai pintar sekarang.</string>
+    <string name="level8">Level 8</string>
+    <string name="level8_desc">Siap siap untuk menghadapi Bos Terakhir!</string>
+    <string name="level9">Level 9</string>
+    <string name="level9_desc">Bos Terakhir berada di pintu selanjutnya!</string>
+    <string name="level10">Level 10</string>
+    <string name="level10_desc">Selamat Datang! Diakhir game</string>
+
+    <!--Fragment Hafalan-->
+    <string name="math">Matematika</string>
+    <string name="math_desc">Matriks, Eksponen, Baris dan Deret</string>
+    <string name="english">Bahasa Inggris</string>
+    <string name="english_desc">Expressions, Grammars, Texts</string>
+    <string name="indonesian">Bahasa Indonesia</string>
+    <string name="indonesian_desc">Cerpen, Ide Pokok, Kesimpulan Paragraf</string>
+
+    <!--Talking Avatar-->
+    <string name="talking_avatar">Halo,\nNamaku Jono, Aku yang akan menemanimu untuk bermain di dalam aplikasi ini.</string>
+    <string name="talking_avatar2">Selamat bermain, jangan dibuat stress ya karena game ini hanya untuk have fun dan mengasah otakmu.</string>
+    <string name="talking_hafalan">Kamu bisa pilih hafalan yang ada, \njangan takut untuk belajar ya!</string>
+    <string name="talking_quis">Ayo! \nAsah kemampuanmu yang telah kamu asah lewat hafalan!</string>
+    <string name="failure">Hmm, \nKamu harus tetap banyak belajar yaa!</string>
+    <string name="success">Yeay! \nKamu berhasil menyelesaikan quisnya, lanjutkan kerja kerasmu!</string>
+    <!--Field-->
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="password_confirm">Konfirmasi Kata Sandi</string>
+    <string name="email">Email</string>
+    <string name="term_and_condition">Syarat dan Ketentuan</string>
+    <string name="fill_term_and_conditions">Dengan ini saya menyetujui bahwa aplikasi ini akan membuat saya menjadi baik dan segala hal keburukan mau kebaikan yang saya lakukan bukan dari aplikasi ini melainkan dari diri saya sendiri. Aplikasi ini mengasah kemampuan yang sudah saya miliki di dalam bidang akademik dan mengembangkannya menjadi lebih baik. Saya percaya bahwa aplikasi ini mampu membuat orang menjadi bertambah ilmu dan selalu ingin belajar. Terima Kasih</string>
+    <string name="reg_success2">Untuk sekarang, Anda bisa melakukan Login</string>
+
+    <string name="login_desc">Isi Email dan password \nyang sudah Anda daftarkan</string>
+    <string name="login_desc2">*Password harus terdiri dari 8 digit dan \nmengandung huruf capital dan angka</string>
+
+
+    <string name="error_message_name">Masukkan Nama Lengkap</string>
+    <string name="error_message_email">Masukkan Email yang Valid</string>
+    <string name="error_message_age">Masukkan Umur</string>
+    <string name="error_message_password">Masukkan Password</string>
+    <string name="success_message">Registrasi Sukses</string>
+    <string name="text_not_member">Belum mempunyai akun? Ayo Buat!</string>
+    <string name="text_already_member">Sudah menjadi member? Login</string>
+    <string name="error_email_exists">Email sudah terdaftar</string>
+    <string name="error_password_match">Password tidak sama</string>
+    <string name="error_valid_email_password">Email dan Password salah</string>
+
+    <!--Welcome-->
+    <string name="good_recitation">Hafalan yang Baik</string>
+    <string name="good_recitation_desc">Bagaimana cara Anda tidak hanya menghafal tetapi juga memahami dan menuntaskan persoalan</string>
+    <string name="amazing_quiz">Quis Kehebatan</string>
+    <string name="amazing_quiz_recitation">Kita menciptakan untuk mempermudah dan juga untuk meningkatkan pengetahuan Anda dimanapun Anda berada</string>
+    <string name="enjoy">Nikmati Aplikasi Anda</string>
+    <string name="enjoy_desc">Nikmati saja, lihat dan mainkan apa yang harus Anda mainkan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Fragment-->
+    <string name="dashboard">Dashboard</string>
+    <string name="recitation">Hafalan</string>
+    <string name="quiz">Quis</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="logout">Logout</string>
+
+    <!--Dialog-->
+    <string name="dialog_logout">Apakah Anda ingin logout?</string>
+
+    <string name="desc_activation">Silahkan isi indentitas Anda \npada kolom di bawah ini</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

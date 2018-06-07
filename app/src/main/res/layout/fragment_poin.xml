@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.PoinFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.03"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi Aditya,"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your current poin is :"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.03"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/thropy_poin"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.01"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="1500"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="42sp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.06"/>
+
+        <Button
+            android:id="@+id/btnRiwayatPoin"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bg_button_white"
+            android:layout_gravity="center_horizontal"
+            android:text="Lihat Riwayat Poin"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.01"/>
+
+        <Button
+            android:id="@+id/btnTukarPoin"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/bg_button_white"
+            android:layout_gravity="center_horizontal"
+            android:text="Tukar Poin"
+            android:textColor="@color/white"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.03"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shadow"
+    android:orientation="vertical"
+    tools:context=".activity.poin.TukarPoinActivity">
+
+    <include layout="@layout/app_bar_menu"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/shadow"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        tools:context=".activity.poin.TukarPoinActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <!-- TODO: Update blank fragment layout -->
+            <com.android.youth.component.CustomTukarPoinButton
+                android:id="@+id/btnTukarPoinPayung"
+                style="@style/styleInboxButton"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                app:btn_buy="Redeem"
+                app:change_poin_desc="Got it! All of skin S.A.B.E.R for all heroes.."
+                app:img_desc="@mipmap/mobilelegends"
+                app:title_desc="Mobile Legends Bang Bang" />
+
+            <com.android.youth.component.CustomTukarPoinButton
+                android:id="@+id/btnTukar"
+                style="@style/styleInboxButton"
+                app:img_desc="@mipmap/aov"
+                app:title_desc="Arena Of Valor"
+                app:change_poin_desc="Unlock all of DC Heroes.."
+                android:layout_marginBottom="10dp"
+                app:btn_buy="Redeem" />
+
+            <com.android.youth.component.CustomTukarPoinButton
+                android:id="@+id/btnTukarBola"
+                style="@style/styleInboxButton"
+                app:img_desc="@mipmap/pubg"
+                app:title_desc="Playeruknown Battleground"
+                app:change_poin_desc="New suit for every partners!.."
+                android:layout_marginBottom="10dp"
+                app:btn_buy="Redeem" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

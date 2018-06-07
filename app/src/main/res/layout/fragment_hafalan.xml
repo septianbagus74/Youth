@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/form_background"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.android.youth.component.CustomListFragment
+            android:id="@+id/btnEnglish"
+            style="@style/styleMenuButton"
+            app:description_menu="@string/english_desc"
+            app:icon_menu="@mipmap/english"
+            app:title_menu="@string/english" />
+
+        <com.android.youth.component.CustomListFragment
+            android:id="@+id/btnIndonesia"
+            style="@style/styleMenuButton"
+            android:layout_marginTop="-2dp"
+            app:description_menu="@string/indonesian_desc"
+            app:icon_menu="@mipmap/indonesia"
+            app:title_menu="@string/indonesian" />
+
+        <com.android.youth.component.CustomListFragment
+            android:id="@+id/btnMath"
+            style="@style/styleMenuButton"
+            android:layout_marginTop="-2dp"
+            android:visibility="visible"
+            app:description_menu="@string/math_desc"
+            app:icon_menu="@mipmap/math"
+            app:title_menu="@string/math" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="5dp">
+
+
+        <ImageView
+            android:id="@+id/imgTalk2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:src="@mipmap/avatar3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_card"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/talk1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/talking_hafalan" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

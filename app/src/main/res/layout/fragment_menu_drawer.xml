@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/orange"
+    android:scrollbars="none">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/orange">
+
+            <ImageView
+                android:id="@+id/imgUser"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/sd"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:text="Aditya Marcel"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvMenuDashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/styleTextMenuDrawer"
+                android:textColor="@color/orange"
+                android:drawableLeft="@mipmap/home"
+                android:text="Menu"/>
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.8dp"-->
+                <!--android:background="@color/semi_blank"/>-->
+
+            <TextView
+                android:id="@+id/tvMenuRecitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/styleTextMenuDrawer"
+                android:textColor="@color/orange"
+                android:drawableLeft="@mipmap/recitation"
+                android:layout_marginTop="10dp"
+                android:text="@string/recitation"/>
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.8dp"-->
+                <!--android:background="@color/semi_blank"/>-->
+
+            <TextView
+                android:id="@+id/tvMenuQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/styleTextMenuDrawer"
+                android:textColor="@color/orange"
+                android:drawableLeft="@mipmap/quiz"
+                android:layout_marginTop="10dp"
+                android:text="@string/quiz"/>
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.8dp"-->
+                <!--android:background="@color/semi_blank"/>-->
+
+            <TextView
+                android:id="@+id/tvMenuAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/styleTextMenuDrawer"
+                android:textColor="@color/orange"
+                android:drawableLeft="@mipmap/account"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_us"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvMenuPoin"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/styleTextMenuDrawer"-->
+                <!--android:textColor="@color/orange"-->
+                <!--android:drawableLeft="@mipmap/trophy"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="My Poin"/>-->
+
+            <TextView
+                android:id="@+id/tvMenuLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/styleTextMenuDrawer"
+                android:textColor="@color/orange"
+                android:drawableLeft="@mipmap/logout"
+                android:layout_marginTop="10dp"
+                android:text="Logout"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
