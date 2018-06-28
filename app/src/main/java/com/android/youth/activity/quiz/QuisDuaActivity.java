@@ -11,12 +11,12 @@ import android.widget.Toast;
 
 import com.android.youth.R;
 import com.android.youth.base.BaseToolbarActivity;
-import com.android.youth.soal.SoalLevel1;
+import com.android.youth.soal.SoalLevel2;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class QuisSatuActivity extends BaseToolbarActivity {
+public class QuisDuaActivity extends BaseToolbarActivity {
 
     @BindView(R.id.tvSkor)
     TextView mtvSkor;
@@ -44,12 +44,12 @@ public class QuisSatuActivity extends BaseToolbarActivity {
     int x;
     String jawaban;
 
-    SoalLevel1 soalPG = new SoalLevel1();
+    SoalLevel2 soalPG = new SoalLevel2();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quis_satu);
+        setContentView(R.layout.activity_quis_dua);
         ButterKnife.bind(this);
         setToolbarDisabledBackButton(getString(R.string.quiz));
 
@@ -69,7 +69,7 @@ public class QuisSatuActivity extends BaseToolbarActivity {
         arr = soalPG.pertanyaan.length;
         if (x >= arr) {
             String jumlahSkor = String.valueOf(skor);
-            Intent i = new Intent(QuisSatuActivity.this, HasilSkor.class);
+            Intent i = new Intent(QuisDuaActivity.this, HasilSkor.class);
             i.putExtra("skorAkhir", jumlahSkor);
             i.putExtra("activity", "PilihanGanda");
             startActivity(i);

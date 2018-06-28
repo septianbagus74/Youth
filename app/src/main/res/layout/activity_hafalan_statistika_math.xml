@@ -9,39 +9,65 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:orientation="vertical">
 
+    <include layout="@layout/app_bar_menu"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="180dp"
         android:orientation="vertical"
-        android:background="@drawable/background_gradient">
+        android:background="@color/white">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/building"/>
+            android:src="@mipmap/statistika_logo"
+            android:layout_margin="10dp"/>
 
     </LinearLayout>
 
-    <TextView
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Informasi Akun Anda :"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:padding="16dp" />
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:fillViewport="true"
-        android:padding="16dp">
+        android:fillViewport="true">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerViewUsers"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
+            <com.android.youth.component.CustomListHafalan
+                android:id="@+id/btnMean"
+                style="@style/styleMenuButton"
+                app:subtitle_hafalan="@string/math_mean_desc"
+                app:title_hafalan="@string/math_mean" />
+
+            <com.android.youth.component.CustomListHafalan
+                android:id="@+id/btnMedian"
+                style="@style/styleMenuButton"
+                android:layout_marginTop="-2dp"
+                app:subtitle_hafalan="@string/math_median_desc"
+                app:title_hafalan="@string/math_median" />
+
+            <com.android.youth.component.CustomListHafalan
+                android:id="@+id/btnModus"
+                style="@style/styleMenuButton"
+                android:layout_marginTop="-2dp"
+                android:visibility="visible"
+                app:subtitle_hafalan="@string/math_modus_desc"
+                app:title_hafalan="@string/math_modus" />
+
+        </LinearLayout>
     </ScrollView>
 
     <View
@@ -79,7 +105,7 @@
             android:layout_height="100dp"
             android:layout_gravity="bottom"
             android:visibility="gone"
-            android:src="@mipmap/avatar2" />
+            android:src="@mipmap/avatar3" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -93,7 +119,7 @@
                 android:id="@+id/talk1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/talking_avatar" />
+                android:text="@string/talking_statistika" />
 
             <TextView
                 android:id="@+id/talk2"
@@ -101,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:visibility="gone"
-                android:text="@string/talking_avatar2" />
+                android:text="@string/talking_statistika2" />
 
         </LinearLayout>
     </LinearLayout>

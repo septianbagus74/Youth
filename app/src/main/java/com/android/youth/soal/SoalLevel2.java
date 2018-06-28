@@ -1,31 +1,34 @@
 package com.android.youth.soal;
 
 /**
- * Created by septian.bagus on 28/05/2018.
+ * Created by septian.bagus on 12/06/2018.
  */
 
-public class SoalLevel1 {
+public class SoalLevel2 {
 
     public String pertanyaan[] = {
-            "Marcell : What's your name?(1) \nFauzi : My name is Fauzi(2) \nMarcell : What a great name!(3) \nFauzi : Thanks!(4)\n\nWhere is the compliment?",
-            "Which of the following sentence is a NOT a compliment?",
-            "The poor kids thanked us for ... him money and food.",
-            "I don't know why they prefer ... in Cisauk.",
-            "Diketahui data sebagai berikut : 7, 8, 8, 9, 7, 6, 5, 8. Nilai rata rata dari data tersebut adalah ...",
-            "Median dari data : 5, 6, 6, 8, 7, 6, 8, 7, 6, 9 adalah ...",
+//            english
+            "You would like someone to take a photo of you in front of a famous monument. Making a polite request for this situation!",
+            "When you are ... a job, you must be patient.",
+            "Education in Indonesia is the ... of school, government and society.",
+//            math
+            "Terdapat sebuah barisan aritmatika sebanyak tujuh suku. Jika suku pertama dan nilai bedanya adalah 2. Berapakah suku tengahnya ?",
+            "Diketahui suatu barisan aritmatika :2, 5, 8, 11, 14, .........Un. Tentukan rumus suku ke-n dalam barisan aritmetika tersebut: ",
+            "Diketahui U2 + U4 = 12 dan U3 + U5 = 16, maka suku ke-7 barisan itu adalah ...",
             "Sebuah barisan Aritmatika memiliki jumlah suku ganjil. Jika suku pertamanya 4 dan suku terakhirnya 20, maka suku tengahnya adalah ...",
+//            indonesia
             "Diketahui U2 + U4 = 12 dan U3 + U5 = 16, maka suku ke-7 barisan itu adalah",
             "Pada dasarnya, menulis menulis kerangka sebuah debat tidak jauh berbeda dengan kerangka dasar jurnal atau pidato. Namun, dalam membuat kerangka debat harus ... dengan baik.",
             "Salah satu bentuk perdebatan yang banyak digunakan. Pada paruh waktu pertama perdebatan, setiap tim memiliki dua segmen untuk menyajikan argumen. Hal tersebut merupakan pengertian debat ...",
     };
 
     private String pilihanJawaban[][] = {
-            {"(1)","(2)","(3)"},
-            {"That looks awful","Nice bike!","You look Amazing"},
-            {"giving","given","gave"},
-            {"live","living","to living"},
-            {"8,25", "7,25", "6,00"},
-            {"Me = 6","Me = 6,25","Me = 6,5"},
+            {"Hey! Take some photos of me.","Could you take some picture of me.","Can I take your picture, please."},
+            {"looking at","looking for","looking up"},
+            {"responsible","responsive","responsibility"},
+            {"8","9","12"},
+            {"Un = 3n -1", "Un = 3n -2", "Un = 3n + 1"},
+            {"14","11","8"},
             {"12","11","14"},
             {"11","13","14"},
             {"terlihat","terstruktur","terakomodir"},
@@ -33,12 +36,12 @@ public class SoalLevel1 {
     };
 
     private String jawabanBenar[] = {
-            "(3)",
-            "That looks awful",
-            "giving",
-            "living",
-            "7,25",
-            "6,5",
+            "Could you take some picture of me.",
+            "looking for",
+            "responsibility",
+            "Un = 3n -1",
+            "14",
+            "14",
             "11",
             "14",
             "terstruktur",
@@ -59,12 +62,13 @@ public class SoalLevel1 {
         String jawaban2 = pilihanJawaban[x][1];
         return jawaban2;
     }
-
+    //membuat getter untuk mengambil pilihan jawaban 3
     public String getPilihanJawaban3(int x){
         String jawaban3 = pilihanJawaban[x][2];
         return jawaban3;
     }
 
+    //membuat getter untuk mengambil jawaban benar
     public String getJawabanBenar(int x){
         String jawaban = jawabanBenar[x];
         return jawaban;

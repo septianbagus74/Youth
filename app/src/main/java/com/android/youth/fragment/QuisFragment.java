@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.android.youth.R;
+import com.android.youth.activity.quiz.QuisDuaActivity;
 import com.android.youth.activity.quiz.QuisSatuActivity;
 import com.android.youth.base.BaseFragment;
 import com.android.youth.component.CustomListFragment;
@@ -55,12 +56,16 @@ public class QuisFragment extends BaseFragment {
     public void onClick(View v) {
 
         if (v.getId() == R.id.level1) {
-            Intent intentEnglish = new Intent(getActivity(), QuisSatuActivity.class);
-            startActivity(intentEnglish);
+            Intent intentQuisSatu = new Intent(getActivity(), QuisSatuActivity.class);
+            intentQuisSatu.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intentQuisSatu);
+            getActivity().finish();
 
-//        } else if (v.getId() == R.id.level2) {
-//            Intent intentIndonesia = new Intent(getActivity(), IndonesiaActivity.class);
-//            startActivity(intentIndonesia);
+        } else if (v.getId() == R.id.level2) {
+            Intent intentQuisDua = new Intent(getActivity(), QuisDuaActivity.class);
+            intentQuisDua.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intentQuisDua);
+            getActivity().finish();
 //
 //        } else if (v.getId() == R.id.level3) {
 //            Intent intentMath = new Intent(getActivity(), MathActivity.class);

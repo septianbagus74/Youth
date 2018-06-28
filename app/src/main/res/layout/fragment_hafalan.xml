@@ -20,13 +20,13 @@
             app:icon_menu="@mipmap/english"
             app:title_menu="@string/english" />
 
-        <com.android.youth.component.CustomListFragment
-            android:id="@+id/btnIndonesia"
-            style="@style/styleMenuButton"
-            android:layout_marginTop="-2dp"
-            app:description_menu="@string/indonesian_desc"
-            app:icon_menu="@mipmap/indonesia"
-            app:title_menu="@string/indonesian" />
+        <!--<com.android.youth.component.CustomListFragment-->
+            <!--android:id="@+id/btnIndonesia"-->
+            <!--style="@style/styleMenuButton"-->
+            <!--android:layout_marginTop="-2dp"-->
+            <!--app:description_menu="@string/indonesian_desc"-->
+            <!--app:icon_menu="@mipmap/indonesia"-->
+            <!--app:title_menu="@string/indonesian" />-->
 
         <com.android.youth.component.CustomListFragment
             android:id="@+id/btnMath"

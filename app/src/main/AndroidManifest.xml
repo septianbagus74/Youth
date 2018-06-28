@@ -31,7 +31,14 @@
         <activity android:name=".activity.hafalan.EnglishActivity" />
         <activity android:name=".activity.hafalan.MathActivity" />
         <activity android:name=".activity.quiz.QuisSatuActivity" />
-        <activity android:name=".activity.quiz.HasilSkor"></activity>
+        <activity android:name=".activity.quiz.HasilSkor" />
+        <activity android:name=".activity.hafalan.math.HafalanMathStatistikaActivity" />
+        <activity android:name=".activity.hafalan.math.HafalanMathEksponenActivity" />
+        <activity android:name=".activity.quiz.QuisDuaActivity" />
+        <activity android:name=".activity.hafalan.math.statistika.HafalanMeanActivity" />
+        <activity android:name=".activity.hafalan.math.statistika.HafalanMedianActivity" />
+        <activity android:name=".activity.hafalan.math.statistika.HafalanModusActivity" />
+        <activity android:name=".activity.hafalan.english.HafalanEnglishExpressionActivity"></activity>
     </application>
 
 </manifest>

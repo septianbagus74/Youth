@@ -95,7 +95,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 COLUMN_USER_ID,
                 COLUMN_USER_EMAIL,
                 COLUMN_USER_NAME,
-                COLUMN_USER_PASSWORD
+//                COLUMN_USER_PASSWORD
         };
         // sorting orders
         String sortOrder =
@@ -126,7 +126,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 user.setId(Integer.parseInt(cursor.getString(cursor.getColumnIndex(COLUMN_USER_ID))));
                 user.setName(cursor.getString(cursor.getColumnIndex(COLUMN_USER_NAME)));
                 user.setEmail(cursor.getString(cursor.getColumnIndex(COLUMN_USER_EMAIL)));
-                user.setPassword(cursor.getString(cursor.getColumnIndex(COLUMN_USER_PASSWORD)));
+//                user.setPassword(cursor.getString(cursor.getColumnIndex(COLUMN_USER_PASSWORD)));
                 // Adding user record to list
                 userList.add(user);
             } while (cursor.moveToNext());

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/form_background"
-    tools:context="com.android.youth.activity.quiz.QuisSatuActivity">
+    tools:context="com.android.youth.activity.quiz.QuisDuaActivity">
 
     <include layout="@layout/app_bar_menu"/>
 

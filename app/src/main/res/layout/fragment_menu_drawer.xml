@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@color/bg_inner"
         android:clickable="true"
         android:gravity="center_horizontal"
         android:orientation="vertical">
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp"
-            android:background="@color/orange">
+            android:background="@drawable/background_gradient">
 
             <ImageView
                 android:id="@+id/imgUser"
@@ -39,6 +39,11 @@
                 android:textSize="16sp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -81,7 +86,7 @@
                 android:layout_height="wrap_content"
                 style="@style/styleTextMenuDrawer"
                 android:textColor="@color/orange"
-                android:drawableLeft="@mipmap/quiz"
+                android:drawableLeft="@mipmap/icn_quiz"
                 android:layout_marginTop="10dp"
                 android:text="@string/quiz"/>
 

@@ -9,40 +9,20 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:orientation="vertical">
 
-    <LinearLayout
+    <include layout="@layout/app_bar_menu"/>
+
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@drawable/background_gradient">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@mipmap/building"/>
-
-    </LinearLayout>
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Informasi Akun Anda :"
-        android:textSize="18sp"
+        android:gravity="center"
+        android:textSize="20sp"
         android:textStyle="bold"
-        android:padding="16dp" />
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:fillViewport="true"
-        android:padding="16dp">
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerViewUsers"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-    </ScrollView>
+        android:text="Under Maintenance"/>
 
     <View
         android:layout_width="match_parent"
@@ -79,7 +59,7 @@
             android:layout_height="100dp"
             android:layout_gravity="bottom"
             android:visibility="gone"
-            android:src="@mipmap/avatar2" />
+            android:src="@mipmap/avatar3" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -93,7 +73,7 @@
                 android:id="@+id/talk1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/talking_avatar" />
+                android:text="@string/talking_statistika" />
 
             <TextView
                 android:id="@+id/talk2"
@@ -101,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:visibility="gone"
-                android:text="@string/talking_avatar2" />
+                android:text="@string/talking_statistika2" />
 
         </LinearLayout>
     </LinearLayout>

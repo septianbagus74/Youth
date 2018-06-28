@@ -6,6 +6,11 @@
         <attr name="icon_menu" format="reference" />
     </declare-styleable>
 
+    <declare-styleable name="CustomListHafalan">
+        <attr name="title_hafalan" format="string" />
+        <attr name="subtitle_hafalan" format="string" />
+    </declare-styleable>
+
     <declare-styleable name="CustomTextView">
         <attr name="fontName" format="string" />
     </declare-styleable>

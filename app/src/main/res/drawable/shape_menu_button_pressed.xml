@@ -19,7 +19,7 @@
 
     <item>
         <shape>
-            <solid android:color="@color/color_button_menu_pressed" />
+            <solid android:color="@color/semi_blank" />
         </shape>
     </item>
 

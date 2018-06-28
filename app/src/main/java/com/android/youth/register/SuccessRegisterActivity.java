@@ -27,7 +27,7 @@ public class SuccessRegisterActivity extends BaseToolbarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_success_register);
         ButterKnife.bind(this);
-        setToolbar("Success");
+        setToolbarDisabledBackButton(getString(R.string.title_success));
 
         btnDone.setOnClickListener(this);
     }

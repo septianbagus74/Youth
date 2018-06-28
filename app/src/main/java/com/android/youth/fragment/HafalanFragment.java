@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 
 import com.android.youth.R;
 import com.android.youth.activity.hafalan.EnglishActivity;
-import com.android.youth.activity.hafalan.IndonesiaActivity;
 import com.android.youth.activity.hafalan.MathActivity;
 import com.android.youth.base.BaseFragment;
 import com.android.youth.component.CustomListFragment;
@@ -21,8 +20,8 @@ public class HafalanFragment extends BaseFragment {
     @BindView(R.id.btnEnglish)
     CustomListFragment btnEnglish;
 
-    @BindView(R.id.btnIndonesia)
-    CustomListFragment btnIndonesia;
+//    @BindView(R.id.btnIndonesia)
+//    CustomListFragment btnIndonesia;
 
     @BindView(R.id.btnMath)
     CustomListFragment btnMath;
@@ -39,7 +38,7 @@ public class HafalanFragment extends BaseFragment {
         ButterKnife.bind(this, view);
 
         btnEnglish.setOnClickListener(this);
-        btnIndonesia.setOnClickListener(this);
+//        btnIndonesia.setOnClickListener(this);
         btnMath.setOnClickListener(this);
 
         return view;
@@ -52,9 +51,9 @@ public class HafalanFragment extends BaseFragment {
             Intent intentEnglish = new Intent(getActivity(), EnglishActivity.class);
             startActivity(intentEnglish);
 
-        } else if (v.getId() == R.id.btnIndonesia) {
-            Intent intentIndonesia = new Intent(getActivity(), IndonesiaActivity.class);
-            startActivity(intentIndonesia);
+//        } else if (v.getId() == R.id.btnIndonesia) {
+//            Intent intentIndonesia = new Intent(getActivity(), IndonesiaActivity.class);
+//            startActivity(intentIndonesia);
 
         } else if (v.getId() == R.id.btnMath) {
             Intent intentMath = new Intent(getActivity(), MathActivity.class);

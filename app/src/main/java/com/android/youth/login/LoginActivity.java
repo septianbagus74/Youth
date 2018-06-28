@@ -79,13 +79,10 @@ public class LoginActivity extends BaseToolbarActivity {
         if (databaseHelper.checkUser(editTextEmail.getText().toString().trim()
                 , editTextPassword.getText().toString().trim())) {
 
-
             Intent accountsIntent = new Intent(activity, MenuActivity.class);
             accountsIntent.putExtra("EMAIL", editTextEmail.getText().toString().trim());
             emptyInputEditText();
             startActivity(accountsIntent);
-            finish();
-
 
         } else {
             // Snack Bar to show success message that record is wrong

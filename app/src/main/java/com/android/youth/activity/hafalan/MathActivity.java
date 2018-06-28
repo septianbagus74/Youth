@@ -1,5 +1,6 @@
 package com.android.youth.activity.hafalan;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -7,6 +8,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.android.youth.R;
+import com.android.youth.activity.hafalan.math.HafalanMathEksponenActivity;
+import com.android.youth.activity.hafalan.math.HafalanMathStatistikaActivity;
 import com.android.youth.base.BaseToolbarActivity;
 
 import butterknife.BindView;
@@ -38,6 +41,8 @@ public class MathActivity extends BaseToolbarActivity {
             @Override
             public void onClick(View v) {
                 imgMatrix.startAnimation(animBounce);
+                Intent intentMatrix = new Intent(MathActivity.this, HafalanMathStatistikaActivity.class);
+                startActivity(intentMatrix);
             }
         });
 
@@ -45,6 +50,8 @@ public class MathActivity extends BaseToolbarActivity {
             @Override
             public void onClick(View v) {
                 imgEksponen.startAnimation(animBounce);
+                Intent intentMatrix = new Intent(MathActivity.this, HafalanMathEksponenActivity.class);
+                startActivity(intentMatrix);
             }
         });
 
@@ -52,6 +59,8 @@ public class MathActivity extends BaseToolbarActivity {
             @Override
             public void onClick(View v) {
                 imgBarisDanDeret.startAnimation(animBounce);
+//                Intent intentMatrix = new Intent(MathActivity.this, HafalanMathStatistikaActivity.class);
+//                startActivity(intentMatrix);
             }
         });
     }

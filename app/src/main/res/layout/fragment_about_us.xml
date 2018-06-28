@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/background_gradient"
             android:padding="30dp">
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -66,6 +66,11 @@
                 android:text="@string/about"/>
 
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark"/>
 
         <LinearLayout
             android:layout_width="match_parent"

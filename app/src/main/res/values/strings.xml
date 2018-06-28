@@ -11,6 +11,7 @@
     <string name="call_number">(+62) 89654530259</string>
     <string name="insta_id">"@clevernessproduction00</string>
 
+    <string name="title_success">Sukses</string>
     <string name="warning">Peringatan</string>
     <string name="ok">Oke</string>
     <string name="cancel">Batal</string>
@@ -24,23 +25,30 @@
     <string name="level1">Level 1</string>
     <string name="level1_desc">Latihan untuk pemula</string>
     <string name="level2">Level 2</string>
-    <string name="level2_desc">Masih latihan tetapi mengasah kemampuanmu</string>
+    <string name="level2_desc">Mulai mengasah kemampuanmu</string>
     <string name="level3">Level3</string>
     <string name="level3_desc">Inilah saatnya masuk ke tahap menengah!</string>
     <string name="level4">Level 4</string>
-    <string name="level4_desc">Mulai tahap menengah, soalnya akan lebih sulit lho.</string>
+    <string name="level4_desc">Tahap ini akan lebih sulit dari sebelumnya.</string>
     <string name="level5">Level 5</string>
-    <string name="level5_desc">Tahap ini akan lebih sulit dari sebelumnya.</string>
-    <string name="level6">Level 6</string>
-    <string name="level6_desc">Bersiaplah untuk kesulitan yang tiada batas!</string>
-    <string name="level7">Level 7</string>
-    <string name="level7_desc">Saya pikir Anda sudah mulai pintar sekarang.</string>
-    <string name="level8">Level 8</string>
-    <string name="level8_desc">Siap siap untuk menghadapi Bos Terakhir!</string>
-    <string name="level9">Level 9</string>
-    <string name="level9_desc">Bos Terakhir berada di pintu selanjutnya!</string>
-    <string name="level10">Level 10</string>
-    <string name="level10_desc">Selamat Datang! Diakhir game</string>
+    <string name="level5_desc">Bersiaplah untuk kesulitan yang tiada batas!</string>
+
+    <string name="math_statistic">Statistika</string>
+
+    <!--MathStatistikaHafalan-->
+    <string name="math_mean">Menentukan Mean</string>
+    <string name="math_mean_desc">Rata - rata Data Tunggal, Rata rata Data Berkelompok</string>
+    <string name="math_median">Menentukan Median/Nilai Tengah</string>
+    <string name="math_median_desc">Median Data Tunggal, Median Data Berkelompok</string>
+    <string name="math_modus">Menentukan Modus/Data Terbanyak</string>
+    <string name="math_modus_desc">Modus Data Tunggal, Modus Data Berkelompok</string>
+
+    <string name="math_eksponen">Sifat Pangkat Positif</string>
+    <string name="math_eksponen_desc">Pangkat yang bernilai positif, beserta contohnya</string>
+    <string name="math_eksponen_nol">Sifat Pangkat Nol</string>
+    <string name="math_eksponen_nol_desc">Pangkat yang bernilai nol, beserta contohnya</string>
+    <string name="math_eksponen_negatif">Sifat Pangkat Negatif</string>
+    <string name="math_eksponen_negatif_desc">Pangkat yang bernilai negatif, beserta contohnya</string>
 
     <!--Fragment Hafalan-->
     <string name="math">Matematika</string>
@@ -57,6 +65,12 @@
     <string name="talking_quis">Ayo! \nAsah kemampuanmu yang telah kamu asah lewat hafalan!</string>
     <string name="failure">Hmm, \nKamu harus tetap banyak belajar yaa!</string>
     <string name="success">Yeay! \nKamu berhasil menyelesaikan quisnya, lanjutkan kerja kerasmu!</string>
+    <string name="talking_statistika">Materi ini bisa dibilang menyenangkan untuk dipelajari karena untuk memahaminya kita diharuskan untuk memutar otak dan menggunakan logika.</string>
+    <string name="talking_statistika2">Jadi, \nSemangat ya dalam belajarnya hehe</string>
+    <string name="talking_eksponen">Eksponen atau pangkat artinya perkalian berulang dengan bilangan yang sama.</string>
+    <string name="talking_eksponen2">Tentunya ini akan menjadi menyenangkan ya saat kita mempelajarinya.</string>
+
+
     <!--Field-->
     <string name="username">Nama Pengguna</string>
     <string name="password">Kata Sandi</string>

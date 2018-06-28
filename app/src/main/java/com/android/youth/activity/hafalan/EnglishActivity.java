@@ -1,5 +1,6 @@
 package com.android.youth.activity.hafalan;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -7,6 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.android.youth.R;
+import com.android.youth.activity.hafalan.english.HafalanEnglishExpressionActivity;
 import com.android.youth.base.BaseToolbarActivity;
 
 import butterknife.BindView;
@@ -38,6 +40,8 @@ public class EnglishActivity extends BaseToolbarActivity {
             @Override
             public void onClick(View v) {
                 imgExpression.startAnimation(animBounce);
+                Intent intentExpression = new Intent(EnglishActivity.this, HafalanEnglishExpressionActivity.class);
+                startActivity(intentExpression);
             }
         });
 
@@ -45,6 +49,8 @@ public class EnglishActivity extends BaseToolbarActivity {
             @Override
             public void onClick(View v) {
                 imgGrammar.startAnimation(animBounce);
+                Intent intentGrammar = new Intent(EnglishActivity.this, HafalanEnglishExpressionActivity.class);
+                startActivity(intentGrammar);
             }
         });
 
@@ -52,6 +58,8 @@ public class EnglishActivity extends BaseToolbarActivity {
             @Override
             public void onClick(View v) {
                 imgText.startAnimation(animBounce);
+                Intent intentText = new Intent(EnglishActivity.this, HafalanEnglishExpressionActivity.class);
+                startActivity(intentText);
             }
         });
     }
