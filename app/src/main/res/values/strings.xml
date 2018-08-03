@@ -43,12 +43,19 @@
     <string name="math_modus">Menentukan Modus/Data Terbanyak</string>
     <string name="math_modus_desc">Modus Data Tunggal, Modus Data Berkelompok</string>
 
+    <!--Eksponen-->
     <string name="math_eksponen">Sifat Pangkat Positif</string>
     <string name="math_eksponen_desc">Pangkat yang bernilai positif, beserta contohnya</string>
     <string name="math_eksponen_nol">Sifat Pangkat Nol</string>
     <string name="math_eksponen_nol_desc">Pangkat yang bernilai nol, beserta contohnya</string>
     <string name="math_eksponen_negatif">Sifat Pangkat Negatif</string>
     <string name="math_eksponen_negatif_desc">Pangkat yang bernilai negatif, beserta contohnya</string>
+
+    <!--InggrisExpression-->
+    <string name="english_expression_positive">Positive Expression</string>
+    <string name="english_expression_positive_desc">Bagaimana cara kita menyampaikan reaksi positif</string>
+    <string name="english_expression_negative">Negative Expression</string>
+    <string name="english_expression_negative_desc">Bagaimana cara kita menyampaikan reaksi negatif</string>
 
     <!--Fragment Hafalan-->
     <string name="math">Matematika</string>
@@ -69,10 +76,11 @@
     <string name="talking_statistika2">Jadi, \nSemangat ya dalam belajarnya hehe</string>
     <string name="talking_eksponen">Eksponen atau pangkat artinya perkalian berulang dengan bilangan yang sama.</string>
     <string name="talking_eksponen2">Tentunya ini akan menjadi menyenangkan ya saat kita mempelajarinya.</string>
+    <string name="talking_expression">Materi ini akan menjadi keseruan sendiri bagi pengguna, karena disini kita akan belajar bagaimana cara untuk menyampaikan ekspresi kita.</string>
 
 
     <!--Field-->
-    <string name="username">Nama Pengguna</string>
+    <string name="username">Nama Lengkap</string>
     <string name="password">Kata Sandi</string>
     <string name="password_confirm">Konfirmasi Kata Sandi</string>
     <string name="email">Email</string>
@@ -110,9 +118,23 @@
     <string name="dashboard">Dashboard</string>
     <string name="recitation">Hafalan</string>
     <string name="quiz">Quis</string>
+    <string name="poin">Poin</string>
     <string name="about_us">Tentang Kami</string>
     <string name="logout">Logout</string>
 
+    <!--Mean-->
+    <string name="keterangan">Keterangan :</string>
+    <string name="mean_soal">Nilai mean (rata - rata) dari data pada tabel tersebut adalah ...</string>
+    <string name="mean_pernyataan">Nilai tengah masing - masing kelas adalah sebagai berikut.</string>
+    <string name="rata">= Rataan hitung dari data kelompok</string>
+    <string name="frekuensi">= Frekuensi kelas ke-i</string>
+    <string name="nilai_tengah">= Nilai tengah kelas ke-i</string>
+    <string name="contoh_soal">Contoh Soal</string>
+    <string name="pembahasan">Pembahasan</string>
+
+    <!--Inggris-->
+    <string name="hafalan_positive">Positive Expression biasanya dilakukan pada tindakan yang mengacu puji - pujian terhadap orang, hewan, maupun benda.</string>
+    <string name="hafalan_negative">Negative Expression biasanya digunakan pada tindakan yang mengacu kepada duka, sedih, dll.</string>
     <!--Dialog-->
     <string name="dialog_logout">Apakah Anda ingin logout?</string>
 

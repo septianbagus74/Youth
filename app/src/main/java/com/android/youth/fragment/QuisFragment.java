@@ -23,14 +23,14 @@ public class QuisFragment extends BaseFragment {
     @BindView(R.id.level2)
     CustomListFragment level2;
 
-    @BindView(R.id.level3)
-    CustomListFragment level3;
-
-    @BindView(R.id.level4)
-    CustomListFragment level4;
-
-    @BindView(R.id.level5)
-    CustomListFragment level5;
+//    @BindView(R.id.level3)
+//    CustomListFragment level3;
+//
+//    @BindView(R.id.level4)
+//    CustomListFragment level4;
+//
+//    @BindView(R.id.level5)
+//    CustomListFragment level5;
 
     public QuisFragment() {
         // Required empty public constructor
@@ -45,9 +45,6 @@ public class QuisFragment extends BaseFragment {
 
         level1.setOnClickListener(this);
         level2.setOnClickListener(this);
-        level3.setOnClickListener(this);
-        level4.setOnClickListener(this);
-        level5.setOnClickListener(this);
 
         return view;
     }
@@ -66,19 +63,7 @@ public class QuisFragment extends BaseFragment {
             intentQuisDua.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intentQuisDua);
             getActivity().finish();
-//
-//        } else if (v.getId() == R.id.level3) {
-//            Intent intentMath = new Intent(getActivity(), MathActivity.class);
-//            startActivity(intentMath);
-//
-//        } else if (v.getId() == R.id.level4) {
-//            Intent intentMath = new Intent(getActivity(), MathActivity.class);
-//            startActivity(intentMath);
-//
-//        } else if (v.getId() == R.id.level5) {
-//            Intent intentMath = new Intent(getActivity(), MathActivity.class);
-//            startActivity(intentMath);
-//        }
+
         }
     }
 }

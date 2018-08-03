@@ -25,7 +25,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/statistika_logo"
+            android:src="@mipmap/expression_logo"
             android:layout_margin="10dp"/>
 
     </LinearLayout>
@@ -47,25 +47,17 @@
             android:orientation="vertical">
 
             <com.android.youth.component.CustomListHafalan
-                android:id="@+id/btnMean"
+                android:id="@+id/btnPositive"
                 style="@style/styleMenuButton"
-                app:subtitle_hafalan="@string/math_mean_desc"
-                app:title_hafalan="@string/math_mean" />
+                app:subtitle_hafalan="@string/english_expression_positive_desc"
+                app:title_hafalan="@string/english_expression_positive" />
 
             <com.android.youth.component.CustomListHafalan
-                android:id="@+id/btnMedian"
+                android:id="@+id/btnNegative"
                 style="@style/styleMenuButton"
                 android:layout_marginTop="-2dp"
-                app:subtitle_hafalan="@string/math_median_desc"
-                app:title_hafalan="@string/math_median" />
-
-            <com.android.youth.component.CustomListHafalan
-                android:id="@+id/btnModus"
-                style="@style/styleMenuButton"
-                android:layout_marginTop="-2dp"
-                android:visibility="visible"
-                app:subtitle_hafalan="@string/math_modus_desc"
-                app:title_hafalan="@string/math_modus" />
+                app:subtitle_hafalan="@string/english_expression_negative_desc"
+                app:title_hafalan="@string/english_expression_negative" />
 
         </LinearLayout>
     </ScrollView>
@@ -119,7 +111,7 @@
                 android:id="@+id/talk1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/talking_statistika" />
+                android:text="@string/talking_expression" />
 
             <TextView
                 android:id="@+id/talk2"

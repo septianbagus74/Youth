@@ -78,6 +78,11 @@ public class MenuActivity extends BaseToolbarActivity implements FragmentMenuDra
                 displayFragment = new QuisFragment();
                 break;
 
+//            case Constant.POSITION_POIN:
+//                setToolbarTitle(getString(R.string.poin));
+//                displayFragment = new PoinFragment();
+//                break;
+
             case Constant.POSITION_ABOUT:
                 setToolbarTitle(getString(R.string.about_us));
                 displayFragment = new AboutUsFragment();

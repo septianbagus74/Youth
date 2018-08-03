@@ -1,6 +1,7 @@
 package com.android.youth.activity.quiz;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -46,12 +47,18 @@ public class QuisDuaActivity extends BaseToolbarActivity {
 
     SoalLevel2 soalPG = new SoalLevel2();
 
+    MediaPlayer mediaPlayer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quis_dua);
         ButterKnife.bind(this);
         setToolbarDisabledBackButton(getString(R.string.quiz));
+
+        mediaPlayer = MediaPlayer.create(QuisDuaActivity.this,R.raw.quistwo);
+        mediaPlayer.start();
+        mediaPlayer.setLooping(true);
 
         mtvSkor.setText("" + skor);
         setKonten();
@@ -73,6 +80,7 @@ public class QuisDuaActivity extends BaseToolbarActivity {
             i.putExtra("skorAkhir", jumlahSkor);
             i.putExtra("activity", "PilihanGanda");
             startActivity(i);
+            mediaPlayer.stop();
             finish();
 
         } else {

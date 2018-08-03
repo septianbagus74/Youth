@@ -12,8 +12,9 @@ public interface Constant {
     int POSITION_WELCOME_FRAGMENT = 0;
     int POSITION_RECITATION = 1;
     int POSITION_QUIZ = 2;
-    int POSITION_ABOUT = 3;
-    int POSITION_LOGOUT = 4;
+    int POSITION_POIN = 3;
+    int POSITION_ABOUT = 4;
+    int POSITION_LOGOUT = 5;
 
     //Key
     String KEY_INTENT_DATA = "intentData";

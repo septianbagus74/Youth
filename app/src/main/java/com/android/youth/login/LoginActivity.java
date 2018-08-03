@@ -83,6 +83,7 @@ public class LoginActivity extends BaseToolbarActivity {
             accountsIntent.putExtra("EMAIL", editTextEmail.getText().toString().trim());
             emptyInputEditText();
             startActivity(accountsIntent);
+            finish();
 
         } else {
             // Snack Bar to show success message that record is wrong

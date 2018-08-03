@@ -52,61 +52,61 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/lin2"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:background="@drawable/bg_shadow"
-            android:padding="8dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:gravity="center">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lin2"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/bg_shadow"-->
+            <!--android:padding="8dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:gravity="center">-->
 
-            <ImageView
-                android:id="@+id/imgEksponen"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/eksponen"/>
+            <!--<ImageView-->
+                <!--android:id="@+id/imgEksponen"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@mipmap/eksponen"/>-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:textSize="14sp"
-                android:text="Eksponen"/>
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:padding="10dp"-->
+                <!--android:textSize="14sp"-->
+                <!--android:text="Eksponen"/>-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:id="@+id/lin3"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            android:background="@drawable/bg_shadow"
-            android:padding="8dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:gravity="center">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lin3"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/bg_shadow"-->
+            <!--android:padding="8dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:gravity="center">-->
 
-            <ImageView
-                android:id="@+id/imgBarisDanDeret"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/barisan"/>
+            <!--<ImageView-->
+                <!--android:id="@+id/imgBarisDanDeret"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@mipmap/barisan"/>-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:textSize="14sp"
-                android:gravity="center"
-                android:text="Barisan"/>
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:padding="10dp"-->
+                <!--android:textSize="14sp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Barisan"/>-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
     </LinearLayout>
 </LinearLayout>

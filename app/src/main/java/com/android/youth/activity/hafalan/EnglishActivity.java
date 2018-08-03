@@ -19,11 +19,11 @@ public class EnglishActivity extends BaseToolbarActivity {
     @BindView(R.id.imgExpression)
     ImageView imgExpression;
 
-    @BindView(R.id.imgGrammar)
-    ImageView imgGrammar;
-
-    @BindView(R.id.imgText)
-    ImageView imgText;
+//    @BindView(R.id.imgGrammar)
+//    ImageView imgGrammar;
+//
+//    @BindView(R.id.imgText)
+//    ImageView imgText;
 
     Animation animBounce;
 
@@ -45,23 +45,23 @@ public class EnglishActivity extends BaseToolbarActivity {
             }
         });
 
-        imgGrammar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                imgGrammar.startAnimation(animBounce);
-                Intent intentGrammar = new Intent(EnglishActivity.this, HafalanEnglishExpressionActivity.class);
-                startActivity(intentGrammar);
-            }
-        });
-
-        imgText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                imgText.startAnimation(animBounce);
-                Intent intentText = new Intent(EnglishActivity.this, HafalanEnglishExpressionActivity.class);
-                startActivity(intentText);
-            }
-        });
+//        imgGrammar.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                imgGrammar.startAnimation(animBounce);
+//                Intent intentGrammar = new Intent(EnglishActivity.this, HafalanEnglishGrammarActivity.class);
+//                startActivity(intentGrammar);
+//            }
+//        });
+//
+//        imgText.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                imgText.startAnimation(animBounce);
+//                Intent intentText = new Intent(EnglishActivity.this, HafalanEnglishTextsActivity.class);
+//                startActivity(intentText);
+//            }
+//        });
     }
 
     @Override

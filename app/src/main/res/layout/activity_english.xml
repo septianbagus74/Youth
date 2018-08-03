@@ -52,60 +52,60 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/lin2"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_shadow"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="5dp"
-            android:padding="8dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lin2"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/bg_shadow"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:padding="8dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
 
-            <ImageView
-                android:id="@+id/imgGrammar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/book"/>
+            <!--<ImageView-->
+                <!--android:id="@+id/imgGrammar"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@mipmap/book"/>-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:textSize="14sp"
-                android:text="Grammars"/>
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:padding="10dp"-->
+                <!--android:textSize="14sp"-->
+                <!--android:text="Grammars"/>-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:id="@+id/lin3"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_shadow"
-            android:layout_marginRight="5dp"
-            android:layout_marginLeft="5dp"
-            android:padding="8dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lin3"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/bg_shadow"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:padding="8dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
 
-            <ImageView
-                android:id="@+id/imgText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/texts"/>
+            <!--<ImageView-->
+                <!--android:id="@+id/imgText"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@mipmap/texts"/>-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:padding="10dp"
-                android:textSize="14sp"
-                android:text="Texts"/>
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textStyle="bold"-->
+                <!--android:padding="10dp"-->
+                <!--android:textSize="14sp"-->
+                <!--android:text="Texts"/>-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
     </LinearLayout>
 </LinearLayout>

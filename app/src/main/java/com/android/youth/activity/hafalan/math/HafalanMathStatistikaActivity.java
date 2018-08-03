@@ -6,8 +6,6 @@ import android.view.View;
 
 import com.android.youth.R;
 import com.android.youth.activity.hafalan.math.statistika.HafalanMeanActivity;
-import com.android.youth.activity.hafalan.math.statistika.HafalanMedianActivity;
-import com.android.youth.activity.hafalan.math.statistika.HafalanModusActivity;
 import com.android.youth.base.BaseToolbarActivity;
 import com.android.youth.component.CustomListHafalan;
 
@@ -19,11 +17,11 @@ public class HafalanMathStatistikaActivity extends BaseToolbarActivity {
     @BindView(R.id.btnMean)
     CustomListHafalan btnMean;
 
-    @BindView(R.id.btnMedian)
-    CustomListHafalan btnMedian;
-
-    @BindView(R.id.btnModus)
-    CustomListHafalan btnModus;
+//    @BindView(R.id.btnMedian)
+//    CustomListHafalan btnMedian;
+//
+//    @BindView(R.id.btnModus)
+//    CustomListHafalan btnModus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +31,8 @@ public class HafalanMathStatistikaActivity extends BaseToolbarActivity {
         setToolbar(getString(R.string.math_statistic));
 
         btnMean.setOnClickListener(this);
-        btnMedian.setOnClickListener(this);
-        btnModus.setOnClickListener(this);
+//        btnMedian.setOnClickListener(this);
+//        btnModus.setOnClickListener(this);
     }
 
     @Override
@@ -43,13 +41,14 @@ public class HafalanMathStatistikaActivity extends BaseToolbarActivity {
             Intent intentMean = new Intent(HafalanMathStatistikaActivity.this, HafalanMeanActivity.class);
             startActivity(intentMean);
 
-        } else if (v.getId() == R.id.btnMedian) {
-            Intent intentMedian = new Intent(HafalanMathStatistikaActivity.this, HafalanMedianActivity.class);
-            startActivity(intentMedian);
-
-        } else if (v.getId() == R.id.btnModus) {
-            Intent intentModus = new Intent(HafalanMathStatistikaActivity.this, HafalanModusActivity.class);
-            startActivity(intentModus);
+//        } else if (v.getId() == R.id.btnMedian) {
+//            Intent intentMedian = new Intent(HafalanMathStatistikaActivity.this, HafalanMedianActivity.class);
+//            startActivity(intentMedian);
+//
+//        } else if (v.getId() == R.id.btnModus) {
+//            Intent intentModus = new Intent(HafalanMathStatistikaActivity.this, HafalanModusActivity.class);
+//            startActivity(intentModus);
+//        }
         }
     }
 }

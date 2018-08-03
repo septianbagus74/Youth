@@ -52,20 +52,20 @@
                 app:subtitle_hafalan="@string/math_mean_desc"
                 app:title_hafalan="@string/math_mean" />
 
-            <com.android.youth.component.CustomListHafalan
-                android:id="@+id/btnMedian"
-                style="@style/styleMenuButton"
-                android:layout_marginTop="-2dp"
-                app:subtitle_hafalan="@string/math_median_desc"
-                app:title_hafalan="@string/math_median" />
+            <!--<com.android.youth.component.CustomListHafalan-->
+                <!--android:id="@+id/btnMedian"-->
+                <!--style="@style/styleMenuButton"-->
+                <!--android:layout_marginTop="-2dp"-->
+                <!--app:subtitle_hafalan="@string/math_median_desc"-->
+                <!--app:title_hafalan="@string/math_median" />-->
 
-            <com.android.youth.component.CustomListHafalan
-                android:id="@+id/btnModus"
-                style="@style/styleMenuButton"
-                android:layout_marginTop="-2dp"
-                android:visibility="visible"
-                app:subtitle_hafalan="@string/math_modus_desc"
-                app:title_hafalan="@string/math_modus" />
+            <!--<com.android.youth.component.CustomListHafalan-->
+                <!--android:id="@+id/btnModus"-->
+                <!--style="@style/styleMenuButton"-->
+                <!--android:layout_marginTop="-2dp"-->
+                <!--android:visibility="visible"-->
+                <!--app:subtitle_hafalan="@string/math_modus_desc"-->
+                <!--app:title_hafalan="@string/math_modus" />-->
 
         </LinearLayout>
     </ScrollView>

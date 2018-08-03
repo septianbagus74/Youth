@@ -40,6 +40,9 @@ public class RegisterActivity extends BaseToolbarActivity {
     @BindView(R.id.textInputLayoutConfirmPassword)
     TextInputLayout layoutConfirmPassword;
 
+    @BindView(R.id.textInputLayoutPoin)
+    TextInputLayout layoutPoin;
+
     @BindView(R.id.textInputEditTextUsername)
     TextInputEditText editTextUsername;
 
@@ -51,6 +54,9 @@ public class RegisterActivity extends BaseToolbarActivity {
 
     @BindView(R.id.textInputEditTextConfirmPassword)
     TextInputEditText editTextConfirmPassword;
+
+    @BindView(R.id.textInputEditTextPoin)
+    TextInputEditText editTextPoin;
 
     private InputValidation inputValidation;
     private DatabaseHelper databaseHelper;
@@ -97,12 +103,16 @@ public class RegisterActivity extends BaseToolbarActivity {
                 layoutConfirmPassword, getString(R.string.error_password_match))) {
             return;
         }
+        if (!inputValidation.isInputEditTextFilled(editTextPoin, layoutPoin, "Cek Poin Anda")){
+            return;
+        }
 
         if (!databaseHelper.checkUser(editTextEmail.getText().toString().trim())) {
 
             user.setName(editTextUsername.getText().toString().trim());
             user.setEmail(editTextEmail.getText().toString().trim());
             user.setPassword(editTextPassword.getText().toString().trim());
+            user.setPoin("0");
 
             databaseHelper.addUser(user);
 
@@ -126,5 +136,6 @@ public class RegisterActivity extends BaseToolbarActivity {
         editTextEmail.setText(null);
         editTextPassword.setText(null);
         editTextConfirmPassword.setText(null);
+        editTextPoin.setText("0");
     }
 }

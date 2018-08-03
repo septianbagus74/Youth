@@ -26,7 +26,7 @@ public class HafalanMathEksponenActivity extends BaseToolbarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hafalan_math_eksponen);
         ButterKnife.bind(this);
-        setToolbar("Matriks");
+        setToolbar("Eksponen");
 
         btnSifatPositif.setOnClickListener(this);
         btnSifatNol.setOnClickListener(this);

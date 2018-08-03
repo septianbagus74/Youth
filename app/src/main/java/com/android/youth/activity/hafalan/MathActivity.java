@@ -8,7 +8,6 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.android.youth.R;
-import com.android.youth.activity.hafalan.math.HafalanMathEksponenActivity;
 import com.android.youth.activity.hafalan.math.HafalanMathStatistikaActivity;
 import com.android.youth.base.BaseToolbarActivity;
 
@@ -20,11 +19,11 @@ public class MathActivity extends BaseToolbarActivity {
     @BindView(R.id.imgMatrix)
     ImageView imgMatrix;
 
-    @BindView(R.id.imgEksponen)
-    ImageView imgEksponen;
-
-    @BindView(R.id.imgBarisDanDeret)
-    ImageView imgBarisDanDeret;
+//    @BindView(R.id.imgEksponen)
+//    ImageView imgEksponen;
+//
+//    @BindView(R.id.imgBarisDanDeret)
+//    ImageView imgBarisDanDeret;
 
     Animation animBounce;
 
@@ -46,23 +45,23 @@ public class MathActivity extends BaseToolbarActivity {
             }
         });
 
-        imgEksponen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                imgEksponen.startAnimation(animBounce);
-                Intent intentMatrix = new Intent(MathActivity.this, HafalanMathEksponenActivity.class);
-                startActivity(intentMatrix);
-            }
-        });
-
-        imgBarisDanDeret.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                imgBarisDanDeret.startAnimation(animBounce);
-//                Intent intentMatrix = new Intent(MathActivity.this, HafalanMathStatistikaActivity.class);
+//        imgEksponen.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                imgEksponen.startAnimation(animBounce);
+//                Intent intentMatrix = new Intent(MathActivity.this, HafalanMathEksponenActivity.class);
 //                startActivity(intentMatrix);
-            }
-        });
+//            }
+//        });
+//
+//        imgBarisDanDeret.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                imgBarisDanDeret.startAnimation(animBounce);
+//                Intent intentBarisDeret = new Intent(MathActivity.this, HafalanMathBarisDeretActivity.class);
+//                startActivity(intentBarisDeret);
+//            }
+//        });
     }
 
     @Override

@@ -33,29 +33,29 @@
                 app:icon_menu="@mipmap/training"
                 app:title_menu="@string/level2" />
 
-            <com.android.youth.component.CustomListFragment
-                android:id="@+id/level3"
-                style="@style/styleMenuButton"
-                android:layout_marginTop="-2dp"
-                android:visibility="visible"
-                app:description_menu="@string/level3_desc"
-                app:icon_menu="@mipmap/arm"
-                app:title_menu="@string/level3" />
+            <!--<com.android.youth.component.CustomListFragment-->
+                <!--android:id="@+id/level3"-->
+                <!--style="@style/styleMenuButton"-->
+                <!--android:layout_marginTop="-2dp"-->
+                <!--android:visibility="visible"-->
+                <!--app:description_menu="@string/level3_desc"-->
+                <!--app:icon_menu="@mipmap/arm"-->
+                <!--app:title_menu="@string/level3" />-->
 
-            <com.android.youth.component.CustomListFragment
-                android:id="@+id/level4"
-                style="@style/styleMenuButton"
-                app:description_menu="@string/level4_desc"
-                app:icon_menu="@mipmap/dumbell"
-                app:title_menu="@string/level4" />
+            <!--<com.android.youth.component.CustomListFragment-->
+                <!--android:id="@+id/level4"-->
+                <!--style="@style/styleMenuButton"-->
+                <!--app:description_menu="@string/level4_desc"-->
+                <!--app:icon_menu="@mipmap/dumbell"-->
+                <!--app:title_menu="@string/level4" />-->
 
-            <com.android.youth.component.CustomListFragment
-                android:id="@+id/level5"
-                style="@style/styleMenuButton"
-                android:layout_marginTop="-2dp"
-                app:description_menu="@string/level5_desc"
-                app:icon_menu="@mipmap/strong"
-                app:title_menu="@string/level5" />
+            <!--<com.android.youth.component.CustomListFragment-->
+                <!--android:id="@+id/level5"-->
+                <!--style="@style/styleMenuButton"-->
+                <!--android:layout_marginTop="-2dp"-->
+                <!--app:description_menu="@string/level5_desc"-->
+                <!--app:icon_menu="@mipmap/strong"-->
+                <!--app:title_menu="@string/level5" />-->
 
         </LinearLayout>
     </ScrollView>

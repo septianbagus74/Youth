@@ -39,4 +39,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             startActivity(intentLogin);
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }

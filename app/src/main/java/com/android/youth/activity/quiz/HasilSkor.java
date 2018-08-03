@@ -1,7 +1,7 @@
 package com.android.youth.activity.quiz;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,11 +11,12 @@ import android.widget.Toast;
 
 import com.android.youth.R;
 import com.android.youth.activity.MenuActivity;
+import com.android.youth.base.BaseToolbarActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class HasilSkor extends Activity {
+public class HasilSkor extends BaseToolbarActivity {
 
     @BindView(R.id.talk1)
     TextView talk1;
@@ -35,11 +36,14 @@ public class HasilSkor extends Activity {
     @BindView(R.id.imgTalk2)
     ImageView image2;
 
+    MediaPlayer player;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hasil_skor);
         ButterKnife.bind(this);
+        setToolbar("Hasil Skor");
 
         setSkor();
 
@@ -60,41 +64,33 @@ public class HasilSkor extends Activity {
         if (activity.equals("PilihanGanda")) {
             mtvHasilAkhir.setText("SKOR : " + skorPilGan);
 
-            if (skorPilGan.equals("60")) {
+            if (skorPilGan.equals("60") || skorPilGan.equals("50") || skorPilGan.equals("40") || skorPilGan.equals("30") || skorPilGan.equals("20") || skorPilGan.equals("10")) {
                 talk1.setVisibility(View.GONE);
                 talk2.setVisibility(View.VISIBLE);
                 image1.setVisibility(View.GONE);
                 image2.setVisibility(View.VISIBLE);
-            } else if (skorPilGan.equals("50")) {
-                talk1.setVisibility(View.GONE);
-                talk2.setVisibility(View.VISIBLE);
-                image1.setVisibility(View.GONE);
-                image2.setVisibility(View.VISIBLE);
-            } else if (skorPilGan.equals("40")) {
-                talk1.setVisibility(View.GONE);
-                talk2.setVisibility(View.VISIBLE);
-                image1.setVisibility(View.GONE);
-                image2.setVisibility(View.VISIBLE);
-            } else if (skorPilGan.equals("30")) {
-                talk1.setVisibility(View.GONE);
-                talk2.setVisibility(View.VISIBLE);
-                image1.setVisibility(View.GONE);
-                image2.setVisibility(View.VISIBLE);
-            } else if (skorPilGan.equals("20")) {
-                talk1.setVisibility(View.GONE);
-                talk2.setVisibility(View.VISIBLE);
-                image1.setVisibility(View.GONE);
-                image2.setVisibility(View.VISIBLE);
-            } else if (skorPilGan.equals("10")) {
-                talk1.setVisibility(View.GONE);
-                talk2.setVisibility(View.VISIBLE);
-                image1.setVisibility(View.GONE);
-                image2.setVisibility(View.VISIBLE);
+
+                player = MediaPlayer.create(HasilSkor.this,R.raw.failure_quiz);
+                player.start();
+
+            }else if (skorPilGan.equals("100") || skorPilGan.equals("90") || skorPilGan.equals("80") || skorPilGan.equals("70")){
+                talk1.setVisibility(View.VISIBLE);
+                talk2.setVisibility(View.GONE);
+                image1.setVisibility(View.VISIBLE);
+                image2.setVisibility(View.GONE);
+
+                player = MediaPlayer.create(HasilSkor.this,R.raw.success_quiz);
+                player.start();
             }
         }
     }
 
     public void onBackPressed() {
         Toast.makeText(this, "Tidak bisa kembali, silahkan tekan menu", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }

@@ -38,7 +38,14 @@
         <activity android:name=".activity.hafalan.math.statistika.HafalanMeanActivity" />
         <activity android:name=".activity.hafalan.math.statistika.HafalanMedianActivity" />
         <activity android:name=".activity.hafalan.math.statistika.HafalanModusActivity" />
-        <activity android:name=".activity.hafalan.english.HafalanEnglishExpressionActivity"></activity>
+        <activity android:name=".activity.hafalan.english.HafalanEnglishExpressionActivity" />
+        <activity android:name=".activity.hafalan.math.HafalanMathBarisDeretActivity" />
+        <activity android:name=".activity.hafalan.english.HafalanEnglishGrammarActivity" />
+        <activity android:name=".activity.hafalan.english.HafalanEnglishTextsActivity" />
+        <activity android:name=".activity.hafalan.math.statistika.contohsoal.ContohSoalMeanActivity" />
+        <activity android:name=".activity.hafalan.math.statistika.contohsoal.pembahasan.PembahasanMeanActivity" />
+        <activity android:name=".activity.hafalan.english.expression.PositiveExpressionActivity" />
+        <activity android:name=".activity.hafalan.english.expression.NegativeExpressionActivity"></activity>
     </application>
 
 </manifest>
